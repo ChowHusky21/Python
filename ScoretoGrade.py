@@ -7,16 +7,16 @@ while True:
     score = float(scorei)
     if score >= 0.0 and score <= 1.0:
         if score >= 0.9:
-            print("The grade for {score} is an A")
+            print(f"The grade for {score:f2} is an A")
         elif score >= 0.8:
-            print("The grade for {score} is a B")
+            print(f"The grade for {score:f2} is a B")
         elif score >= 0.7:
-            print("The grade for {score} is a C")
+            print(f"The grade for {score:f2} is a C")
         elif score >= 0.6:
-            print("The grade for {score} is a D")
+            print(f"The grade for {score:f2} is a D")
         else:
-            print("The grade for {score} is an F")
+            print(f"The grade for {score:f2} is an F")
         break
     else:
-        print("Error, the score entered was not between 0.00 and 1.00.")
+        print(f"Error, {score:f2} entered was not between 0.00 and 1.00.")
 quit()
