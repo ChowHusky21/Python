@@ -1,3 +1,6 @@
+# This function clears the terminal screen
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
 # This program converts a score between 0.00 and 1.00 into a letter grade
 while True:
     scorei = input("Enter score between 0.00 and 1.00: ")
