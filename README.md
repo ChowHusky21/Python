@@ -21,4 +21,4 @@ No script here should ever be piped directly from a URL into a shell, and none o
 No credentials, API keys, or external configuration are used by any script in this repo.
 
 ## Licensing & Disclaimer
-_No license currently set._ Recommend adding an MIT license for consistency with the other repos (pending sign-off — not applied in this draft).
+Licensed under the [MIT License](LICENSE).
